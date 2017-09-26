@@ -19,6 +19,6 @@ end
 
 def printer (attendees)
   attendees.each do |phrase|
-    puts "Hello, my name is #{phrase}"
+    puts "Hello, my name is #{phrase}."
   end
 end
