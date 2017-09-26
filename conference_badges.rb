@@ -11,5 +11,5 @@ def badge_maker(name)
 end
 
 def method_name
-  
+
 end
