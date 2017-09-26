@@ -10,6 +10,9 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def method_name
-
+def assign_rooms(attendees)
+  attendees.each_with_index do |name, index|
+    attendees[index] = "Hello, #{name}! You'll be assigned to room #{name_array[index] + 1}"
+  end
+  return attendees
 end
