@@ -20,5 +20,6 @@ end
 def printer (attendees)
   attendees.each do |i|
     current_attendent = [batch_badge_creator([i])]
+    puts current_attendent
   end
 end
